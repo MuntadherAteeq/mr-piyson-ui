@@ -9,15 +9,15 @@ import { Contact } from "./pages/Contact.tsx"
 
 const router = createBrowserRouter([
   {
-    path: "/mr-piyson-UI/",
+    path: "/mr-piyson-ui/",
     element: <App />,
     children: [
       {
-        path: "/mr-piyson-UI/",
+        path: "/mr-piyson-ui/",
         element: <Home />,
       },
       {
-        path: "/mr-piyson-UI/contact",
+        path: "/mr-piyson-ui/contact",
         element: <Contact />,
       },
     ],
